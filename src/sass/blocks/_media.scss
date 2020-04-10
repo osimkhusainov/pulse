@@ -1,0 +1,211 @@
+@media (max-width: 1200px){
+
+}
+@media (max-width: 992px){
+    .container {
+        padding-right: 40px;
+        padding-left: 40px;
+        width: 100%;
+    }
+    .tittle {
+        &_left {
+            font-size: 30px;
+        }
+    }
+
+}
+@media (max-width:767px){
+        .promo {
+            .header {
+                &__logo {
+                    width: 50%;
+                }
+                &__official {
+                    display: none;
+                }
+                &__phone {
+                    font-size: 20px;
+                    white-space: nowrap;
+                }
+                button {
+                    width: 90%;
+                }
+            }
+            &__icons {
+                width: 100%;
+            }
+        }
+        .edge {
+            &__wrapp {
+                display: block;
+                margin: 0 auto;
+                width: 150px;
+                text-align: center;
+            }
+            &__icon {
+                margin-top: 20px;
+            }
+            &_subtitle {
+                margin-top: 10px;
+                white-space: nowrap;
+            }
+            &__descr {
+                font-size: 15px;
+                margin-top: 10px;
+                width: 200%;
+            }
+        }
+    }
+    
+    .tittle {
+        &_left {
+            font-size: 25px;
+        }
+    }
+
+@media (max-width: 480px) {
+    .promo {
+        .header {
+            &__logo {
+                padding-left: 0px;
+                width: 150%;
+            }
+            &__official {
+                display: none;
+            }
+            &__phone {
+                font-size: 13px;
+                white-space: nowrap;
+                // display: none;
+            }
+            button {
+                width: 100px;
+                // display: none;
+            }
+        }
+    &__icons {
+        display: block;
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    &__icon {
+        margin-bottom: 10px;
+    }
+    &__wrapper {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 50px;
+        }
+        &__header {
+            font-size: 25px;
+            white-space: nowrap;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+    }
+
+    .edge {        
+        .tittle {
+            font-size: 25px;
+            white-space: nowrap;
+        }
+        &__wrapp {
+            display: block;
+            width: 50%;
+            margin: 0 auto;
+            text-align: center;
+        }
+        &__icon {
+            margin-top: 20px;
+        }
+        &_subtitle {
+            margin-top: 10px;
+        }
+        &__descr {
+            font-size: 15px;
+            margin-top: 10px;
+            width: 200%;
+            br {
+                display: none;
+            }
+        }
+    }
+    .container {
+        .tittle {
+            &_left {
+                font-size: 25px;
+                white-space: unset;
+                br {
+                    display: none;
+                }
+            }
+        }
+        .consultation__descr {
+            font-size: 18px;
+            text-align: left;
+        }
+        .feed-form {
+            width: 100%;
+        }
+    }
+}
+@media (max-width: 320px) {
+    .promo {
+        .header {
+            &__logo {
+                width: 200px;
+            }
+        }
+        &__wrapper {
+            width: 100%;
+        }
+        &__header {
+            font-size: 19px;
+        }
+        &__subheader {
+            font-size: 15px;
+        }
+        &__icons {
+            display: block;
+            margin: 0 auto;
+            width: 50%;
+        }
+        &__icon {
+            margin-top: 30px;
+
+        }
+        button {
+            width: 100%;
+            // white-space: nowrap;
+            font-size: 15px;
+        }
+    }
+    .edge {
+        .tittle {
+            font-size: 15px;
+        }
+    }
+    .container {
+        .tittle {
+            &_left {
+                font-size: 15px;
+                br {
+                    display: none;
+                }
+            }
+        }
+        .consultation__descr {
+            font-size: 15px;
+            text-align: left;
+        }
+        .feed-form {
+            width: 100%;
+            button {
+                font-size: 13px;
+            }
+        }
+    }
+}
